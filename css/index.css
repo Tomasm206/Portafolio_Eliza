@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Poppins:wght@900&display=swap");
+@import url(./header.css);
+@import url(./hero.css);
+
+:root {
+  --first-family: "Poppins", sans-serif;
+  --second-family: "Oxygen", sans-serif;
+  --black-color: #0f0a0a;
+  --primary-color: #42e2b8;
+}
+
+body {
+  background: linear-gradient(135deg, #fad7a1 0%, #e96d71 100%);
+  height: 200vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}

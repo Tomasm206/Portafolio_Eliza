@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text h1 {
+  font-family: var(--second-family);
+  font-size: 59px;
+  font-weight: 700;
+}
+
+.text h1 span {
+  font-size: 48px;
+}
+
+.text p {
+  font-family: var(--second-family);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text a {
+  color: var(--black-color);
+  font-family: var(--second-family);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person {
+    width: 600px;
+    height: 600px;
+  }
+}
